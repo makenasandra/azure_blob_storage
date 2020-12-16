@@ -46,6 +46,7 @@ service = BlobServiceClient.from_connection_string(conn_str=CONN)
 ```
 
 #### Create new Container
+
 Every blob is stored inside a blob container.
 <br>Container and blob names must conform to a set of rules, including length limitations and character restrictions. 
 <br>Blob names are used to indicate meaning and structure. They can include file name extensions like .csv to indicate what kind of data they contain. 
